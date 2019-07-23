@@ -26,15 +26,15 @@
 				<th><b>Topping</b></th>
 			</tr>
 			<tr>
-				<td>HouseBlend - $1.8</td>
-				<td>Soy - $0.3</td>
+				<td>HouseBlend - $0.89</td>
+				<td>Soy - $0.15</td>
 			</tr>
 			<tr>
-				<td>Espresso - $0.99</td>
+				<td>Espresso - $1.99</td>
 				<td>Whip - $0.1</td>
 			</tr>
 			<tr>
-				<td></td>
+				<td>DarkRoast - $0.99</td>
 				<td>Mocha - $0.2</td>
 			</tr>
 		</table>
@@ -46,6 +46,7 @@
 			<label>COFFEE: </label> <select name="coffeeMenu">
 				<option value="HouseBlend">HouseBlend</option>
 				<option value="Espresso">Espresso</option>
+				<option value="DarkRoast">DarkRoast</option>
 			</select> <br> <label>TOPPING: </label>
 			<button id="addTopping" type="button">add Topping</button>
 			<div class="addTopping"></div>

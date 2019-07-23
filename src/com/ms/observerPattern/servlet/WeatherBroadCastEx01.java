@@ -14,7 +14,7 @@ import com.ms.observerPattern.WeatherData;
 /**
  * Servlet implementation class WeatherBroadCastEx01
  */
-@WebServlet("/WeatherExServletMS")
+@WebServlet("/WeatherExServlet")
 public class WeatherBroadCastEx01 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -26,7 +26,7 @@ public class WeatherBroadCastEx01 extends HttpServlet {
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 //	    request.getRequestDispatcher("observerPattern01/weatherEx.jsp").forward(request, response);
 	  response.getWriter().append("Served at: ").append(request.getContextPath());
-      request.getRequestDispatcher("observerPattern01/weatherExMS.jsp").forward(request, response);
+      request.getRequestDispatcher("observerPattern01/weatherEx.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
